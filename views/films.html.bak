@@ -1,0 +1,19 @@
+<div>
+	<h1 class="title">Films</h1>
+</div>
+<div class="content">
+	<div class="container">
+			<figure id="videoPlayer">
+				<iframe ng-src="{{videoSource}}" frameborder="0" allowfullscreen></iframe>
+				<figcaption>
+					<a ng-click="setVideoVFX();"><img src="./images/videoEffects.jpg" alt="Video Effects"></a>
+					<a ng-click="setVideoSSN();"><img src="./images/ssn.jpg" alt="Survival Skills Network"></a>				
+					<a ng-click="setVideoAnimation();"><img src="./images/animation.jpg" alt="Animation Showreel"></a>
+				</figcaption>
+			</figure>
+			<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12" id="filmsText">
+				<h2 id="filmsTitle"><small>{{title}}</small></h2>
+				<p>{{description}}</p>
+			</div>
+	</div>
+</div>

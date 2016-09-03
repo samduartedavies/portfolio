@@ -1,0 +1,18 @@
+<div>
+	<h1 class="title">Websites</h1>
+</div>
+<div class="content">
+	<div class="container thin-box">
+		</br><img id="websites-icon" class="img-responsive" src="images/browserImage.svg"/>
+		<h3>What I've been up to.</h3>
+		<p>Here's a selection of some recent work related to webpages and HTML based projects. More work can be viewed in the <a ng-href="#/films">films</a> section of this portfolio site</p>	
+	</div></br></br>
+	<div class="website-entry" ng-repeat="website in websites" id="{{website.id}}">
+		<div class="container">
+			<img id="{{website.imgID}}" class="img-responsive drop-shadow websites-image" src="{{website.img}}"/>
+			<h2 id="websites-title">{{website.title}}</h2><br>
+			<p id="websites-text" class="thick-box">{{website.text}}</p>
+			<a href="{{website.ref}}" target="_blank" class="btn btn-md btn-websites">{{website.btn}}</a>	
+		</div>	
+	</div>	
+</div>
