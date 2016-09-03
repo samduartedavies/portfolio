@@ -5,7 +5,7 @@
     <title>Sam Duarte-Davies</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
-	<link rel="icon" href="samicon.ico">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <link rel="stylesheet" href="scripts/bootstrap/dist/css/bootstrap.css" />
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">	
