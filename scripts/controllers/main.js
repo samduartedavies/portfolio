@@ -34,7 +34,17 @@ angular.module('portfolioApp')
 		$scope.videoImageSource = "images/carousel3.jpg";		
 	}
 
-	
+$scope.currentPage = "";
+
+$scope.setPageAbout = function(){
+	$scope.currentPage = " - About";
+}	
+$scope.setPageWebsites = function(){
+	$scope.currentPage = " - Websites";
+}	
+$scope.setPageFilms = function(){
+	$scope.currentPage = " - Films";
+}
 	
 $scope.websites = [
 		{id:'websites-smokestack', 
