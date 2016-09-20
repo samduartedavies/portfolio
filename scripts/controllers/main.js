@@ -53,7 +53,7 @@ $scope.websites = [
 		imgID: 'img-smokestack',
 		text:'A filmography company website in which I signle handedly designed and developed the entire process. Placeholder text/images/videos are used until I recieve their material and a purchased domain. It inherits a mobile-responsive design with contrasting structured pages. The home page contains their showreel which I used HTML canvas to allow it to be played in the background on phones/ios devices.', 
 		ref:'https://a228357fae8bb769386e66cce5f1e54661a489e5.googledrive.com/host/0B-TVVaXuw1TBdHNlcVotSjI1SFU/#/', 
-		btn:'Enjoy Art'},
+		btn:'Enjoy Cinematography'},
 		
 		{id:'websites-augmind',
 		title:'Augmind Hive', 
