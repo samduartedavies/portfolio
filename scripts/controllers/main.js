@@ -49,7 +49,7 @@ $scope.setPageFilms = function(){
 $scope.websites = [
 		{id:'websites-smokestack', 
 		title:'Smokestack Picture House', 
-		img:'images/smokestackImage.png', 
+		img:'images/smokestackDisplays.png', 
 		imgID: 'img-smokestack',
 		text:'A filmography company website in which I signle handedly designed and developed the entire process. Placeholder text/images/videos are used until I recieve their material and a purchased domain. It inherits a mobile-responsive design with contrasting structured pages. The home page contains their showreel which I used HTML canvas to allow it to be played in the background on phones/ios devices.', 
 		ref:'https://samduartedavies.github.io/smokestack/#/', 
