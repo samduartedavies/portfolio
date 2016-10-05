@@ -13,7 +13,7 @@ angular.module('portfolioApp')
 	$scope.videoSource = $sce.trustAsResourceUrl("https://www.youtube.com/embed/RmVWzj4UGiE");
 	
 	$scope.title = "iGun (Visual FX)";
-	$scope.description = "this is a brief description of what the film is, along with what my input was, how I created it and why i think I'm the bees fookin knees. Now I need to make sure everything lines up. this is a brief description of what the film is, along with what my input was, how I created it and why i think I'm the bees fookin knees. this is a brief description of what the film is, along with Random words to make text look realistic. what my input was, how I created it and why i think I'm the bees fookin knees. this is a brief description of what the film is, along with what my input was, how I created it and why i think I'm the bees fookin knees"
+	$scope.description = "A project that was created for the completion of a module for my university degree, called 'Visual Effects and Compilation'. This short clip involves one of my tutors using green screens as well as background scenes (shot at different times of the day). My role involved rotoscoping, colour correcting and animating parts of the scene to make it into an action sequence. I used Adobe After Effects for all aspects of the scene."
 
 	$scope.setVideoVFX = function(){
 		$scope.title = "iGun (Visual FX)";	
