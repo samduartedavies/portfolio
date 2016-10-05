@@ -459,11 +459,11 @@ margin: auto;
 	margin: auto;
 	margin-bottom:30px;
 }
-#img-smokestack, #img-augmind, #img-cocacola{
+#img-augmind, #img-cocacola{
 	max-width:60%;
 	border-radius:20px;
 }
-#img-virtualmuseum, #img-santachiara, #img-snake{
+#img-smokestack, #img-virtualmuseum, #img-santachiara, #img-snake{
 	max-width:80%;
 }
 /*#websites-text{
